@@ -44,5 +44,5 @@ class Base_Setup:
     @pytest.fixture(autouse=True)
     def post_condition(self):
         yield
-        print("The Closing the browser")
+        print("Closing the browser")
         self.driver.quit()
