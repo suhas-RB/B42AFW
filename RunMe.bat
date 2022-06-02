@@ -1,1 +1,0 @@
-pytest -vs --html=test_output/result.html
