@@ -7,7 +7,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
 
 class Base_Setup:
-
+    xl_path = "test_data/Book1.xlsx"
     @pytest.fixture(autouse=True)
     def pre_condition(self):
         pfile = Properties()
